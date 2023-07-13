@@ -16,3 +16,9 @@ microservice:
     endpoints:
       endpoint:
         uri: http://ORDER-SERVICE/order/placeOrder      
+
+management:
+  endpoint: 
+    health:
+      show-components: always
+      show-details: always
